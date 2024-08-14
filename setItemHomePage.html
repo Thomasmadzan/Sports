@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+        <title> </title>
+                      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+        
+                 div{
+                
+            background-color:black;
+            height:100%vh;
+            width:1000px;
+            align-items:center;
+            align-content:center;
+            align-self:center;
+            text-align:center;
+            font-weight:bold;
+            color:white;
+            font-size:40px;
+            border-top-right-radius:40px;
+           border-top-left-radius:40px;
+           border-bottom-right-radius:40px;
+           border-bottom-left-radius:40px;
+               }
+               
+               
+               
+                         #div{
+                
+            background-color:purple;
+            height:1750px;
+            width:400px;
+            align-items:center;
+            align-content:center;
+            align-self:center;
+            text-align:center;
+            font-weight:bold;
+            color:white;
+            font-size:40px;
+            border-top-right-radius:10px;
+           border-top-left-radius:10px;
+           border-bottom-right-radius:10px;
+           border-bottom-left-radius:10px;
+               }
+               
+               
+        button{
+            color:white;
+            align-self:center;
+            align-items:center;
+            align-content:center;
+            border-top-right-radius:40px;
+            border-top-left-radius:40px;
+            border-bottom-right-radius:40px;
+            border-bottom-left-radius:40px;
+            border-top-color:blue;
+            border-bottom-color:white;
+            width:400px;
+            height:100px;
+            background-color:purple;
+            font-size:50px;
+            font-weight:bold;
+            }  
+            
+            a{
+                
+            color:white;
+            font-size:40px;
+            font-weight:bold;
+            
+            }     
+            
+            input{
+                border-top-right-radius:40px;
+                border-top-left-radius:40px;
+                border-bottom-right-radius:40px;
+                border-bottom-left-radius:40px;
+                height:60px;
+                color:black;
+                width:200px;
+            
+            }
+            
+            placeholder{
+                
+            color:black;
+            }
+            
+            #recco{
+                color:gold;
+            
+            
+            }
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        </style>
+            <h1>WELCOME TO HOME OF SPORTS BETTING</h1>
+    </head>
+    <body>
+        <div id = "window">
+            <p>
+                
+           Dear user Welcome to constistant profitable betting platform <br></br>
+               
+           This platform allow you to guess your lucky number from as little as $2 upto $1000 with a multiplier of upto x 10 look at the table below.
+           
+           <p  style = "color:gold" id = "recco"><i><h2 style = "color:gold">Important Notice</h2></i>
+               
+           We recommend you to test on demo before you put a real money in order to be familier with the user interface
+           
+           </p>
+            
+            
+            </p>
+                
+                    <div id = "div">
+                
+                    
+                    </div>
+    
+      <br></br>
+      
+      <button onclick = "demo()">DEMO</button>
+        
+  <br></br>
+        <button onclick = "getStarted()">Get Started</button>
+        </div>
+            
+                
+            
+        
+        <script>
+          const displayInteface = document.querySelector("#div");
+          displayInteface.innerHTML = "$2 = $20 "+`<br> ` + "  $5 = $30" + `<br></br>` + "$10 = $45"+ ` <br></br>` + "$20 = $80 " + ` <br></br>` + " $30 = $200" + `<br></br>` + "$40 = $500 " + `<br></br>` + "$50 =  $750" + `<br></br> ` + "$75 =  $1000" + ` <br></br> ` + "$100 = $1700 " + `<br></br> ` + " $150 = $2500 " + ` <br></br>` + " $200 = $2900 " + `<br></br> ` + "$250 = $4000" + ` <br></br>` + " $300 = $4500" + ` <br></br> ` + "$400 = $5800" + ` <br>` + " $500 = $7000" + ` <br></br> ` + "$1000 = $15000 " ;
+                       
+           function getStarted(){
+               window.location.href = "deposit.html" ;
+           }
+            
+            
+            function demo(){
+                window.location.href = "demo.html";
+            
+            }
+        </script>
+    </body>
+</html>
